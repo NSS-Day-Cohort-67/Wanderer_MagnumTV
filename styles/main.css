@@ -1,8 +1,7 @@
 body{
 background-color:orangered;
+}
 
-
-
-
-
+article {
+    border: 1px solid black;
 }
