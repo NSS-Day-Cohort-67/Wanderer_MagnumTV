@@ -1,7 +1,33 @@
+/* actors on left, genres on the right, shows below */
+
 body{
 background-color:orangered;
 }
 
 article {
     border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* .container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    
+} */
+
+/* actors and genres */
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* shows on the bottom */
+.shows {
+    align-content: flex-end;
+    margin-left:10px;
 }
